@@ -1,0 +1,21 @@
+{
+    "require": {
+        "klein/klein": "2.1",
+        "lcobucci/jwt": "3.2",
+        "adodb/adodb-php": "5.20",
+        "php-activerecord/php-activerecord": "1.2",
+        "respect/validation": "1.1",
+        "spatie/array-to-xml": "2.7"
+    },
+    "autoload":{
+        "psr-4":{
+            "src\\Controllers\\": "src/Controllers/",
+            "src\\Models\\": "src/Models/",
+            "core\\": "core/",
+            "pub\\": "pub/"
+        }
+    },
+    "scripts":{
+        "generate-doc": "apidoc -i src/ -o docs/"
+    }
+}

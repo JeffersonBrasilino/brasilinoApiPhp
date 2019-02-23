@@ -1,0 +1,26 @@
+{
+  "conectionOracle":{
+    "driver":"",
+    "tns": "",
+    "user": "",
+    "password": "",
+    "schema": "",
+    "configs": {
+      "charSet": "",
+      "NLS_DATE_FORMAT": "",
+      "NLS_TIMESTAMP_FORMAT": "",
+      "dateformat": "",
+      "fmtDate": "",
+      "_genSeqSQL": ""
+    }
+  },
+
+  "conectionMysql":{
+    "driver": "",
+    "host": "",
+    "user": "",
+    "password": "",
+    "database": ""
+  }
+
+}

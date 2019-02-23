@@ -1,0 +1,34 @@
+{
+  "getTickets": {
+    "method": [
+      "GET"
+    ],
+    "route": "/calls/[*:id]?",
+    "authenticated": 1,
+    "responseType": "json"
+  },
+  "getUsersGlpi": {
+    "method": [
+      "GET"
+    ],
+    "route": "/users/[i:id]?",
+    "authenticated": 1,
+    "responseType": "json"
+  },
+  "getTicketsByUser": {
+    "method": [
+      "GET"
+    ],
+    "route": "/users/[*:usersId]/calls",
+    "authenticated": 1,
+    "responseType": "json"
+  },
+  "getUsersByGroup": {
+    "method": [
+      "GET"
+    ],
+    "route": "/groups/[*:groupId]/users",
+    "authenticated": 1,
+    "responseType": "json"
+  }
+}

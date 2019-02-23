@@ -1,0 +1,25 @@
+{
+  "index": {
+    "method": [
+      "POST",
+      "GET",
+      "DELETE",
+      "PUT"
+    ],
+    "route": "/[i:id]?",
+    "authenticated": 1,
+    "responseType": "json"
+  },
+  "add": {
+    "method": [
+      "PUT"
+    ],
+    "route": "/update/[:id]",
+    "authenticated": 1
+  },
+  "listEstados":{
+    "method": ["GET"],
+    "route":"/list/[i:page]?",
+    "authenticated": 1
+  }
+}

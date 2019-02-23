@@ -1,0 +1,18 @@
+{
+  "getTasks": {
+    "method": [
+      "GET"
+    ],
+    "route": "/tasks/[*:userId]?",
+    "authenticated": 1,
+    "responseType": "json"
+  },
+  "getUsers": {
+    "method": [
+      "GET"
+    ],
+    "route": "/users/[*:userId]?",
+    "authenticated": 1,
+    "responseType": "json"
+  }
+}

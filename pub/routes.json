@@ -1,0 +1,10 @@
+{
+  "": "src/Routes/IndexRoutes.json",
+  "Login": "src/Routes/LoginRoutes.json",
+  "Usuario": "src/Routes/UsuarioRoutes.json",
+  "Estados": "src/Routes/EstadosRoutes.json",
+  "Generic": "src/Routes/GenericRoutes.json",
+  "RunrunIt":"src/Routes/RunrunItRoutes.json",
+  "Glpi": "src/Routes/GlpiRoutes.json"
+
+}

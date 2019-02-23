@@ -1,0 +1,19 @@
+{
+  "index":{
+    "method": ["POST"],
+    "route": "/[i:id]?",
+    "authenticated": 0
+  },
+
+  "checkTokenApp":{
+    "method": ["GET"],
+    "route": "/checkTokenApp",
+    "authenticated": 0
+  },
+
+  "addUser":{
+    "method": ["POST"],
+    "route": "/cadastro",
+    "authenticated": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "index": {
+    "method": [
+      "GET"
+    ],
+    "route": "",
+    "authenticated": 0
+  }
+}

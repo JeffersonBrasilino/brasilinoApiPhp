@@ -1,0 +1,7 @@
+{
+  "processGenericRoute":{
+    "method": ["POST","GET","PUT","DELETE"],
+    "route": "/[*:table]/[a:action]?/[i:identifier]?",
+    "authenticated": 1
+  }
+}

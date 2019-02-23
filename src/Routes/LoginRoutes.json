@@ -1,0 +1,9 @@
+{
+  "login":{
+    "method": [
+      "POST"
+    ],
+    "route": "",
+    "authenticated": 0
+  }
+}
